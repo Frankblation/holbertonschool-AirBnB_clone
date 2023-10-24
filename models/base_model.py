@@ -34,7 +34,7 @@ class BaseModel:
         models.storage.save()
 
     def to_dict(self):
-        """Returns dictionary of the BaseModel instance with 
+        """Returns dictionary of the BaseModel instance with
         the key/value pair __class__ representing
         the class name of the object
         """
